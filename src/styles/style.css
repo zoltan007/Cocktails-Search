@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #51c4d3;
+}
+
+nav-bar {
+    display: block;
+    padding: 14px;
+    width: 100%;
+    background-color: #126e82;
+    color: #d8e3e7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+main {
+    background-color: rgba(31,58,111,0.8);
+    padding: 100px;
+}
+
+.headline {
+    margin-bottom: 50px;
+    color: white;
+}
+
+.button {
+    margin: 20px 470px;
+    padding: 20px;
+
+}
+cocktails-name {
+    display: block;
+    margin-top: 40px;
+    width: 100;
+    padding: 25px;
+}
+
+cocktails-item {
+    margin-bottom: 22px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+  }
+
+.picture  {
+    border-radius: 5px 5px 0 0;
+  }
+
+.social-icons li {
+    display:inline;
+    list-style-type:none;
+    }
+
+.social-icons li a {
+    border-bottom: none;
+    }
+    
+.social-icons li img {
+    width:50px;
+    height:50px;
+    margin-right: 10px;
+  }
+
+footer {
+    padding: 10px;
+    color: #d8e3e7;
+    background-color: #132c33;
+    text-align: center;
+    font-weight: bold;
+}
