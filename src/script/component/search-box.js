@@ -14,21 +14,16 @@ class SearchBox extends HTMLElement {
 
     render() {
         this.innerHTML = `
-        <form class="navbar-form navbar-left">
+ 
 
-        <div class="form-outline">
-          <input class="form-control col-lg-8" placeholder="Search Cocktails" id="searchElement" type="search"> 
-          </button>
+        <div class="d-flex flex-column justify-content-center">
+            <input class="form-control col-lg-8" placeholder="Search Cocktails" id="searchElement" type="search"> 
+            <br>
+            <button id="searchButtonElement" class="btn btn-primary btn-lg justify-content-center" type="submit">Search</button>
         </div>
-
-        <div class="button">
-        <button id="searchButtonElement" class="btn btn-primary btn-lg" type="submit">Search</button>
-        </div>
-
-      </form>
       `;
 
-      this.querySelector("#searchButtonElement").addEventListener("click", this._clickEvent);
+        this.querySelector("#searchButtonElement").addEventListener("click", this._clickEvent);
     }
 }
 
